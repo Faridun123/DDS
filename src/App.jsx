@@ -26,7 +26,7 @@ function App() {
   <div className='flex items-center justify-between max-w-[1870px]  m-auto h-[7%]  w-[100%] 2xl:px-[20px] md:relative md:w-[100%] '>
   <div><img src={logoSoftClub} alt="No Internet" /></div>
   <div className='flex items-center justify-between w-[800px] xl:hidden'>
-  <Link to="/Main">Главний</Link>
+  <Link to="/Main" className=''>ГЛАВНИЙ</Link>
   <Link to="/">УСЛУГИ</Link>
   <Link to="/Case">КЕЙСЫ</Link>
   <Link to="/Comanda">КОМАНДА</Link>
